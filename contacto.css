@@ -1,0 +1,298 @@
+:root{
+    --blue-oscuro: #1F3FE9;
+    --blue-clarito: #081558;
+    --yellow: #FAFF00;
+    --black: #000000;
+    --purple: #2239AE;
+    --warm-black: #332A2A;
+    --gray: #F1F1F1;
+    --white: #FFFFFF;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* Header de la segunda pagina */
+
+header{
+    position: relative;
+    background: linear-gradient(126.32deg, #1F3FE9 21.29%, rgba(8, 21, 88, 0.87) 83.71%);
+    width: 100%;
+    height: 50px;
+    
+}
+
+.header-logo{
+    width: 45px;
+    height: 37px;
+    margin: 5px;
+    
+}
+
+
+/* Container de las tarjetas */
+
+.main-container-targets{
+    width: 100%;
+    height: auto;
+    background-color: var(--gray);
+    padding-bottom: 30px;
+}
+
+.main-container-targets h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 29px 0  45px;
+}
+
+.container-target{
+    position: relative;
+    width: 85%;
+    height: 260px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.target-title{
+  font-size: 1.4rem;
+  
+  text-align: center;
+  color: var(--white);
+  border-radius: 10px;
+  padding: 7px;
+  
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+}
+
+.target-title h3{
+    font-weight: 500;
+}
+
+
+.container-img{
+    display: flex;
+    justify-content: center;
+}
+
+
+.target-text{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    /* color: var(--white); */
+    padding: 15px 11px;
+}
+
+/* Punto fisico */
+
+.punto-fisico-title{
+    background-color: #3C8CC9;
+    
+}
+
+.punto-fisico{
+    background: #8FD3F8;
+
+}
+
+.tienda{
+    width: 210px;
+    height: 132px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+
+.target-text p span{
+    font-weight: 400;
+}
+
+
+/* Domicilio */
+
+
+.domicilio-title{
+    background-color: #E32A11;
+    width: 199px;
+}
+
+.domicilio{
+    background-color: #FE715E;
+}
+
+.domicilio-img{
+   width: 144px;
+   height: 130px;
+   margin-top: 35px;
+   margin-bottom: 10x;
+}
+
+
+/* Chat de WhatsApp */
+
+.chat-ws-title{
+    background-color: #165818;
+    width: 199px;
+}
+
+.chat-ws{
+    background-color: #59D35E;
+    
+}
+
+.button-ws{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 180px;
+    height: 58px;
+    margin: 0 auto;
+    
+    
+    background-color: #4CAF50;
+    border-radius: 18px;
+    border: 1px solid var(--black);
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container-button-ws{
+    padding-top: 55px;
+    padding-bottom: 18px;
+}
+
+.logo-ws-img{
+   width: 26px;
+   height: 26px; 
+   display: flex;
+}
+
+
+/* Llamada */
+
+
+.llamada-title{
+    background-color: #83498C;
+    width: 120px;
+}
+
+.llamada{
+    background-color: #BA68C8;
+}
+
+.llamada-img{
+   width: 152px;
+   height: 141px;
+   margin-top: 35px; 
+}
+
+/* Formulario */
+
+.formulario{
+    width: 85%;
+    height: auto;
+    border-radius: 0px;
+    border: inset 10px var(--gray);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    background-color: #D1D5E5;
+    
+}
+
+.formulario h3{
+   font-size: 1.8rem;
+   font-weight: 400;
+   text-align: center;
+   padding-bottom: 36px;
+   padding-top: 19px;
+   
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-text{
+   font-size: 1.3rem;
+   font-weight: 600;
+   margin-bottom: 8px; 
+}
+
+.form-input{
+   width: 180px;
+   height: 26px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border: none;
+   border-radius: 5px;
+   margin-bottom: 20px; 
+}
+
+.button-form{
+    background-color: var(--yellow);
+    width: 68px;
+    height: 28px;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.35);
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    border: none;
+}
+
+ /* Footer */
+
+ .main-container-footer{
+    width: 100%;
+    height: auto;
+    background-color: var(--warm-black);
+    padding: 46px 41px;
+}
+
+
+.footer-block{
+    width: 100%;
+    height: auto;
+}
+
+.footer-block h4{
+    color: var(--white);
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.footer-block p{
+    color: var(--white);
+    font-size: 1.4rem;
+    font-weight: 200;
+    padding-bottom: 10px;
+}

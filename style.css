@@ -1,0 +1,138 @@
+:root{
+    --blue-oscuro: #1F3FE9;
+    --blue-clarito: #081558;
+    --yellow: #FAFF00;
+    --black: #000000;
+    --purple: #2239AE;
+    --warm-black: #332A2A;
+    --gray: #F1F1F1;
+    --white: #FFFFFF;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: relative;
+    text-align: center;
+    background: linear-gradient(126.32deg, #1F3FE9 21.29%, rgba(8, 21, 88, 0.87) 83.71%);
+    width: 100%;
+    min-height: 505px;
+    height: 505px;
+    
+}
+
+.header-logo{
+    width: 123px;
+    height: 114px;
+    margin-top: 39px;
+}
+
+
+.container-header-title{
+    padding: 0 20px;
+}
+
+.container-header-title h1{
+   font-size: 2.4rem;
+   font-weight: 600;
+   color: var(--white); 
+   line-height: 3.6rem;
+   padding-top: 19px;
+}
+
+.container-header-title p{
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: var(--white); 
+    line-height: 2.1rem;
+    padding-top: 19px;
+    padding-bottom: 50px;
+ }
+
+
+ .boton_header{
+     background-color: var(--yellow);
+     width: 100px;
+     height: 41px;
+     border-radius: 8px;
+     margin: 0 auto;
+     padding: 11px 5px;
+     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.35);
+ }
+ 
+.boton_header a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.4rem;
+    font-weight: 700;
+ }
+
+.ondas{
+    width: 100%;
+    top: 100%;
+}
+
+
+.onda2{
+    position: absolute;
+    width: 100%;
+    min-height: 53px;
+
+    background-image: url(./assets1/ondas_header2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    top: calc(100% - 53.12px);
+    left: -0%;
+}
+
+.onda1{
+    position: absolute;
+    width: 100%;
+    min-height: 53.12px;
+
+    background-image: url(./assets1/ondas_header.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+
+    top: calc(100% - 52.12px);
+    left: -0%;
+     
+ }
+
+ .icon1{
+    background-image: url(./assets1/img-header.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 44.79px;
+    height: 36.46px;
+
+    position: absolute;
+    transform: translate(200%, -1000%);
+ }
+
+ .icon2{
+    background-image: url(./assets1/img-header.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 44.79px;
+    height: 36.46px;
+
+    position: absolute;
+    transform: translate(-300%, -100%);
+ }
+

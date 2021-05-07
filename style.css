@@ -16,6 +16,11 @@
     padding: 0;
 }
 
+
+a{
+    text-decoration: none;
+}
+
 html{
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
@@ -329,6 +334,11 @@ header{
     padding-bottom: 30px;
 }
 
+
+.republica{
+    width: 100px;
+    height: 112px;
+}
 
 /* Seccion del footer */
 

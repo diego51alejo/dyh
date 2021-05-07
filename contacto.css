@@ -23,6 +23,10 @@ html{
 }
 
 
+a {
+    text-decoration: none;
+}
+
 /* Header de la segunda pagina */
 
 header{
@@ -34,8 +38,8 @@ header{
 }
 
 .header-logo{
-    width: 45px;
-    height: 37px;
+    width: 42px;
+    height: 35px;
     margin: 5px;
     
 }

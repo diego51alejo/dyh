@@ -8,90 +8,92 @@
     <link rel="stylesheet" href="./contacto.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./contacto-laptop.css" media="(min-width: 732px)">
 </head>
 <body>
     <header>
         <a href="index.html"><img class="header-logo" src="./assets1/Logo_DyH.png" alt="logo DyH"></a>
+        <h2>CONTACTE CON NOSOTROS</h2>
     </header>
 
     <section class="main-container-targets">
-        <h2>CONTACTE CON NOSOTROS</h2>
-
-        <article class="container-target punto-fisico">
-            <div class="target-title punto-fisico-title"><h3>Punto Fisico</h3></div>
-            <div class="container-img">
-                <img class="tienda" src="./assets2/tienda.jpg" alt="tienda">
-            </div>
-            <div class="target-text">
-                <p><span>Dirección: </span>Carrera 14 #4-31 Barrio Cadillal</p>
-                <p><span>Lunes-Viernes: </span>7:00am - 5:00pm</p>
-                <p><span>Sabados: </span>7:00am - 1:00pm</p>
-            </div>
-        </article>
-
-
-        <article class="container-target domicilio">
-            <div class="target-title domicilio-title"><h3>Servicio a domicilio</h3></div>
-            <div class="container-img">
-                <img class="domicilio-img" src="./assets2/Directions-pana.png" alt="joven comiciliario">
-            </div>
-            <div class="target-text">
-                <p>Sin costo adicional en zona centro de Popayán</p>
-                
-            </div>
-        </article>
-
-
-        <article class="container-target chat-ws">
-            <div class="target-title chat-ws-title"><h3>Chat de WhatsApp</h3></div>
-            <div class="container-button-ws">
-                <button class="button-ws"> 
-                    <div>
-                    <img class="logo-ws-img" src="./assets2/whatsapp.png" alt="logo whatsapp">
-                    </div>
-                    <p>Abrir Chat!</p>
-                    
-                </button>
-            </div>
-            <div class="target-text">
-                <p>Escribenos y nuestros asesores atenderan todas tus dudas</p>
-                
-            </div>
-        </article>
-
-
-        <article class="container-target llamada">
-            <div class="target-title llamada-title"><h3>Llamada</h3></div>
-            <div class="container-img">
-                <img class="llamada-img" src="./assets2/Call center-amico.png" alt="mujer atendiendo llamada">
-            </div>
-            <div class="target-text">
-                <p>Rellena los datos y dentro de poco tiempo te llamaremos</p>
-                
-            </div>
-        </article>
         
-        <article class="formulario"> 
-            <h3>Te Contactaremos</h3>
+        <div class="targets">
+            <article class="container-target punto-fisico">
+                <div class="target-title punto-fisico-title"><h3>Punto Fisico</h3></div>
+                <div class="container-img">
+                    <img class="tienda" src="./assets2/tienda.jpg" alt="tienda">
+                </div>
+                <div class="target-text">
+                    <p><span>Dirección: </span>Carrera 14 #4-31 <br> Barrio Cadillal</p>
+                    <p><span>Lunes-Viernes: </span>7:00am - 5:00pm</p>
+                    <p><span>Sabados: </span>7:00am - 1:00pm</p>
+                </div>
+            </article>
 
-            <form action="" class="form">
-                <label for="nombre">
-                    <p class="form-text">Nombre:</p>
-                    <input type="text" class="form-input" name="nombre" id="nombre" autocomplete="name" required>
-                </label>
+
+            <article class="container-target domicilio">
+                <div class="target-title domicilio-title"><h3>Servicio a domicilio</h3></div>
+                <div class="container-img">
+                    <img class="domicilio-img" src="./assets2/Directions-pana.png" alt="joven comiciliario">
+                </div>
+                <div class="target-text">
+                    <p>Sin costo adicional en zona centro de Popayán</p>
+                    
+                </div>
+            </article>
 
 
-                <label for="numero">
-                    <p class="form-text">Número de celular:</p>
-                    <input type="text" class="form-input" name="numero" id="numero" autocomplete="name" required>
-                </label>
+            <article class="container-target chat-ws">
+                <div class="target-title chat-ws-title"><h3>Chat de WhatsApp</h3></div>
+                <div class="container-button-ws">
+                    <button class="button-ws"> 
+                        <div>
+                        <img class="logo-ws-img" src="./assets2/whatsapp.png" alt="logo whatsapp">
+                        </div>
+                        <p>Abrir Chat!</p>
+                        
+                    </button>
+                </div>
+                <div class="target-text">
+                    <p>Escribenos y nuestros asesores atenderan todas tus dudas</p>
+                    
+                </div>
+            </article>
 
-                
-                <button class="button-form" type="submit">Enviar</button>
 
-            </form>
+            <article class="container-target llamada">
+                <div class="target-title llamada-title"><h3>Llamada</h3></div>
+                <div class="container-img">
+                    <img class="llamada-img" src="./assets2/Call center-amico.png" alt="mujer atendiendo llamada">
+                </div>
+                <div class="target-text">
+                    <p>Rellena los datos y dentro de poco tiempo te llamaremos</p>
+                    
+                </div>
+            </article>
+            
+            <article class="formulario"> 
+                <h3>Te Contactaremos</h3>
 
-        </article>
+                <form action="" class="form">
+                    <label for="nombre">
+                        <p class="form-text">Nombre:</p>
+                        <input type="text" class="form-input" name="nombre" id="nombre" autocomplete="name" required>
+                    </label>
+
+
+                    <label for="numero">
+                        <p class="form-text">Número de celular:</p>
+                        <input type="text" class="form-input" name="numero" id="numero" autocomplete="name" required>
+                    </label>
+
+                    
+                    <button class="button-form" type="submit">Enviar</button>
+
+                </form>
+            </div>
+            </article>
         
     </section>
 

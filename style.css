@@ -21,6 +21,8 @@ a{
     text-decoration: none;
 }
 
+
+
 html{
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
@@ -177,6 +179,7 @@ header{
     padding: 20px;
 
      background-color: var(--white);
+     color: var(--black);
      width: 290px;
      min-width: 290px;
      height: 122px;
@@ -204,13 +207,14 @@ header{
     position: relative;
 
     margin: 0 auto;
-    
+    margin-bottom: 55px;
     padding: 20px;
 
      background-color: var(--white);
+     color: var(--black);
      width: 290px;
      min-width: 290px;
-     height: 145px;
+     height: 122px;
      border: 1px solid #1F3FE9;
      border-radius: 10px;
      box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25);
@@ -272,6 +276,16 @@ header{
     height: 54px
 }
 
+.recargas-img{
+    width: 40px;
+    height: 44px;
+    position: absolute;
+    top: 0%;
+	left: 25%;
+	transform: translate(-129%, -50%);
+}
+
+
 .servicios-titulo{
 
      font-size: 1.4rem;
@@ -307,15 +321,26 @@ header{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
+    opacity: 0.8;
 
     color: var(--white);
     font-size: 1.5rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(60px,60px);
     align-items: center;
     justify-content: center;
     
+}
+
+
+.image-mobile h3{
+    grid-column: 1/3;
+    text-align: center; 
+}
+
+.image-mobile p{
+    text-align: center;
 }
 
 .onda-celular{
@@ -329,7 +354,7 @@ header{
     height: 112.82px;
     position: absolute;
 
-    top: calc(100% - 112.2px);
+    top: calc(100% - 90.2px);
     left: -0%;
 }
 

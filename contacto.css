@@ -33,15 +33,22 @@ header{
     position: relative;
     background: linear-gradient(126.32deg, #1F3FE9 21.29%, rgba(8, 21, 88, 0.87) 83.71%);
     width: 100%;
-    height: 50px;
-    
+    height: 240px;
+    text-align: center;
+
 }
 
 .header-logo{
-    width: 42px;
-    height: 35px;
-    margin: 5px;
-    
+        width: 123px;
+        height: 114px;
+        margin-top: 29px;
+        margin-bottom: 20px;
+}
+
+header h2{
+    font-size: 1.8rem;
+    color: var(--white);
+    font-weight: 400;
 }
 
 
@@ -61,10 +68,15 @@ header{
     padding: 29px 0  45px;
 }
 
+.targets{
+    padding-top: 80px;
+}
+
 .container-target{
     position: relative;
     width: 85%;
-    height: 260px;
+    max-width: 323px;
+    height: 290px;
     border-radius: 20px;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
@@ -73,12 +85,12 @@ header{
 
 .target-title{
   font-size: 1.4rem;
-  
+
   text-align: center;
   color: var(--white);
   border-radius: 10px;
   padding: 7px;
-  
+
   position: absolute;
   left: 50%;
   top: 0%;
@@ -108,12 +120,12 @@ header{
 
 .punto-fisico-title{
     background-color: #3C8CC9;
-    
+
 }
+
 
 .punto-fisico{
     background: #8FD3F8;
-
 }
 
 .tienda{
@@ -140,6 +152,9 @@ header{
 
 .domicilio{
     background-color: #FE715E;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .domicilio-img{
@@ -159,7 +174,6 @@ header{
 
 .chat-ws{
     background-color: #59D35E;
-    
 }
 
 .button-ws{
@@ -169,8 +183,8 @@ header{
     width: 180px;
     height: 58px;
     margin: 0 auto;
-    
-    
+
+
     background-color: #4CAF50;
     border-radius: 18px;
     border: 1px solid var(--black);
@@ -184,12 +198,12 @@ header{
 
 .container-button-ws{
     padding-top: 55px;
-    padding-bottom: 18px;
+    padding-bottom: 40px;
 }
 
 .logo-ws-img{
    width: 26px;
-   height: 26px; 
+   height: 26px;
    display: flex;
 }
 
@@ -209,20 +223,22 @@ header{
 .llamada-img{
    width: 152px;
    height: 141px;
-   margin-top: 35px; 
+   margin-top: 35px;
 }
 
 /* Formulario */
 
 .formulario{
     width: 85%;
+    max-width: 732px;
     height: auto;
     border-radius: 0px;
-    border: inset 10px var(--gray);
+    border: solid 1px var(--gray);
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
+    padding: 15px 30px;
     background-color: #D1D5E5;
-    
+
 }
 
 .formulario h3{
@@ -231,28 +247,24 @@ header{
    text-align: center;
    padding-bottom: 36px;
    padding-top: 19px;
-   
+
 }
 
-.form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .form-text{
    font-size: 1.3rem;
    font-weight: 600;
-   margin-bottom: 8px; 
+   margin-bottom: 8px;
 }
 
 .form-input{
-   width: 180px;
+   width: 90%;
    height: 26px;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    border: none;
    border-radius: 5px;
-   margin-bottom: 20px; 
+   margin-bottom: 20px;
 }
 
 .button-form{

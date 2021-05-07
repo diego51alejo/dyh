@@ -15,14 +15,29 @@ header{
     margin: 0 auto;
 }
 
+
+.onda2{
+    background-image: none;
+}
+
+.main-container-newspaper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.main-container-newspaper h1{
+    font-size: 2.8rem;
+}
+
 .main-container-footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
 }
 
-.onda2{
-    background-image: none;
-}
+
+
+
 
 

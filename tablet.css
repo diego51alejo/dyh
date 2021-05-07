@@ -5,5 +5,9 @@
 .onda-celular{
     background-image: none;
 }
-
+.image-mobile{
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+}
 

@@ -57,7 +57,7 @@ header h2{
 .main-container-targets{
     width: 100%;
     height: auto;
-    background-color: var(--gray);
+    background-color: var(--white);
     padding-bottom: 30px;
 }
 

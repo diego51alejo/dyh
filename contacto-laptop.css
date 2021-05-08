@@ -1,5 +1,6 @@
 .targets{
     display: grid;
+    position: relative;
     grid-template-columns: repeat(2, 1fr);
     max-width: 732px;
     margin: 0 auto;
@@ -7,10 +8,19 @@
 
 .formulario{
     grid-column: 1/3;
+    
+    
+    max-height: 600px;
+    max-width: 350px;
+    
 }
 
+
+
 .main-container-footer{
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
 }
+

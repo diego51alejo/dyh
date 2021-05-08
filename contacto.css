@@ -72,6 +72,10 @@ header h2{
     padding-top: 80px;
 }
 
+.container-target:hover{
+    box-shadow: 0px 0px 15px 0px #000000;
+}
+
 .container-target{
     position: relative;
     width: 85%;
@@ -232,8 +236,8 @@ header h2{
     width: 85%;
     max-width: 732px;
     height: auto;
-    border-radius: 0px;
-    border: solid 1px var(--gray);
+    
+    /* border: solid 1px var(--); */
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
     padding: 15px 30px;
@@ -250,7 +254,10 @@ header h2{
 
 }
 
-
+.formulario-text-intro{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
 
 .form-text{
    font-size: 1.3rem;
@@ -260,16 +267,30 @@ header h2{
 
 .form-input{
    width: 90%;
-   height: 26px;
+   height: 30px;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    border: none;
    border-radius: 5px;
+   background-color: var(--white);
+   
    margin-bottom: 20px;
+
+   
+}
+
+.mensaje{
+    height: 70px;
+}
+
+
+
+.form-input::placeholder{
+    padding: 8px;
 }
 
 .button-form{
     background-color: var(--yellow);
-    width: 68px;
+    width: 100px;
     height: 28px;
     border-radius: 8px;
     margin: 0 auto;

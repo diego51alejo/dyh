@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./contacto-laptop.css" media="(min-width: 732px)">
+    <link rel="stylesheet" href="./contacto-desktop.css" media="(min-width: 1200px)">
 </head>
 <body>
     <header>
@@ -74,20 +75,28 @@
             </article>
             
             <article class="formulario"> 
-                <h3>Te Contactaremos</h3>
-
+                <h3>Formulario</h3>
+                <p class="formulario-text-intro">Rellena cada uno de los campos y en dentro de poco te contactaremos</p>
                 <form action="" class="form">
                     <label for="nombre">
                         <p class="form-text">Nombre:</p>
-                        <input type="text" class="form-input" name="nombre" id="nombre" autocomplete="name" required>
+                        <input type="text" class="form-input" name="nombre" id="nombre" autocomplete="name" placeholder="Nombre" required>
                     </label>
 
+                    <label for="email">
+                        <p class="form-text">Correo electrónico:</p>
+                        <input type="email" class="form-input" name="email" id="email" placeholder="Correo electrónico" autocomplete="email" required>
+                    </label>
 
                     <label for="numero">
                         <p class="form-text">Número de celular:</p>
-                        <input type="text" class="form-input" name="numero" id="numero" autocomplete="name" required>
+                        <input type="number" class="form-input" name="numero" id="numero" placeholder="Número de celular" autocomplete="name" required>
                     </label>
 
+                    <label for="mensaje">
+                        <p class="form-text">Mensaje:</p>
+                        <input type="text" class="form-input mensaje" name="mensaje" id="mensaje" placeholder="Mensaje" >
+                    </label>
                     
                     <button class="button-form" type="submit">Enviar</button>
 

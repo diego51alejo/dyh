@@ -1,0 +1,1 @@
+var formulario_principal = document.getElementById("formulario_principal")

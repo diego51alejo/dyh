@@ -42,7 +42,7 @@ header{
 
 .header-logo{
     width: 50px;
-    height: 50px;
+    height: 45px;
     /* margin-top: 10px; */
     
 }
@@ -428,7 +428,7 @@ header{
 .main-container-newspaper{
     width: 100%;
     height: auto;
-    background-color: var(--gray);
+    background-color: var(--white);
     text-align: center;
     padding: 30px 20px;
 }

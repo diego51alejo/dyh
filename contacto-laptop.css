@@ -1,3 +1,9 @@
+.img-header{
+    width: 400px;
+    height: 400px;
+    transform: rotateY(154deg) translate(230%,0px);
+}
+
 .targets{
     display: grid;
     position: relative;

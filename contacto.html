@@ -8,13 +8,26 @@
     <link rel="stylesheet" href="./contacto.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./contacto-laptop.css" media="(min-width: 732px)">
     <link rel="stylesheet" href="./contacto-desktop.css" media="(min-width: 1200px)">
 </head>
 <body>
     <header>
-        <a href="index.html"><img class="header-logo" src="./assets1/Logo_DyH.png" alt="logo DyH"></a>
-        <h2>CONTACTE CON NOSOTROS</h2>
+        <div class="container-logo-header">
+            <a href="index.html"><img class="header-logo" src="./assets1/Logo_DyH.png" alt="logo DyH"></a>
+        </div>
+        
+        <h2>CONTACTE CON <br> NOSOTROS</h2>
+
+        <div  class="container-image-header">
+            <img class="img-header" src="./assets1/img-header.png" alt="niña leyendo">
+        </div>
+
+        <div class="ondas">
+            <span class="ola-header"></span>
+        </div>
     </header>
 
     <section class="main-container-targets">
@@ -80,7 +93,7 @@
                 <form action="" class="form">
                     <label for="nombre">
                         <p class="form-text">Nombre:</p>
-                        <input type="text" class="form-input" name="nombre" id="nombre" autocomplete="name" placeholder="Nombre" required>
+                        <input type="text" class="form-input" name="nombre" id="nombre" autocomplete="name" placeholder="Nombre" required autofocus>
                     </label>
 
                     <label for="email">

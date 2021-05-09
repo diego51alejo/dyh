@@ -3,10 +3,29 @@ header{
     min-height: 300px;
 }
 
+
+.img-header{
+    
+    transform: rotateY(154deg) translate(90%,0px);
+    
+}
+
 .container-header-title h1{
     font-size: 3.4rem;
     
  }
+
+
+ .container-header-text .img-tienda-header{
+     width: 60px;
+     height: 60px;
+ }
+
+ .container-header-text{
+    width: 400px;
+    font-size: 1.4rem;
+    transform: translate(-110%, 20%);
+}
 
 .grid{
     display: grid;

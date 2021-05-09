@@ -1,6 +1,4 @@
-.onda1{
-    background-image: none;
-}
+
 
 .onda-celular{
     background-image: none;
@@ -11,3 +9,14 @@
     justify-content: center;
 }
 
+.img-header{
+    
+    transform: rotateY(154deg) translate(80%,0px);
+}
+
+
+
+
+.container-header-title h1{
+    max-width: 60%;
+}
